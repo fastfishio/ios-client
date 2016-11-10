@@ -3,7 +3,7 @@
 //
 
 #import "LDRequestManager.h"
-#import "AFNetworking.h"
+#import <AFNetworking/AFNetworking.h>
 #import "LDUtil.h"
 #import "LDClientManager.h"
 #import "LDConfig.h"

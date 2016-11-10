@@ -25,6 +25,21 @@
 		3AB1B71A1B89036A0006E970 /* LDRequestManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB1B7191B89036A0006E970 /* LDRequestManagerTest.m */; };
 		3AC5D0DE1B8AA44A00417CBB /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5D0DD1B8AA44A00417CBB /* NSDictionary+JSON.m */; };
 		3AD8ACB61B86B5E800922AA6 /* LDClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD8ACB51B86B5E700922AA6 /* LDClientManager.m */; };
+		695D16601DD34BEF00E335F2 /* Darkly_OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 695D165F1DD34BEF00E335F2 /* Darkly_OSX.h */; };
+		695D16621DD34BEF00E335F2 /* Darkly_OSX.m in Sources */ = {isa = PBXBuildFile; fileRef = 695D16611DD34BEF00E335F2 /* Darkly_OSX.m */; };
+		695D16661DD34BF400E335F2 /* LDDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC467AB61B78323F0035C07E /* LDDataManager.m */; };
+		695D16671DD34BF700E335F2 /* LDPollingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DCFA9D1B95105A00F15531 /* LDPollingManager.m */; };
+		695D16681DD34BFA00E335F2 /* LDRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9F23D01B82D19900D0EF2F /* LDRequestManager.m */; };
+		695D16691DD34BFE00E335F2 /* LDClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD8ACB51B86B5E700922AA6 /* LDClientManager.m */; };
+		695D166A1DD34C0100E335F2 /* LDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5F93BF1B6F10DB0093E419 /* LDUtil.m */; };
+		695D166B1DD34C0300E335F2 /* LDClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A70A7871B6FCFAC00984E23 /* LDClient.m */; };
+		695D166C1DD34C0500E335F2 /* LDConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A70A78C1B7008B700984E23 /* LDConfig.m */; };
+		695D166D1DD34C0800E335F2 /* LDUserBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE5294E1B8418B200761F3D /* LDUserBuilder.m */; };
+		695D166E1DD34C0C00E335F2 /* LDFlagConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0C4DE81C4D93B70059886B /* LDFlagConfigModel.m */; };
+		695D166F1DD34C0F00E335F2 /* LDEventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0C4DEE1C4D9D660059886B /* LDEventModel.m */; };
+		695D16701DD34C1200E335F2 /* LDUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0C4DF11C4DA0330059886B /* LDUserModel.m */; };
+		695D16711DD34C1700E335F2 /* DarklyConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A70A7961B705F2C00984E23 /* DarklyConstants.m */; };
+		695D16721DD34C1900E335F2 /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5D0DD1B8AA44A00417CBB /* NSDictionary+JSON.m */; };
 		9C26D624D5C421C86E51C5A8 /* libPods-DarklyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A44BAF6AB27A088EB7A34F7 /* libPods-DarklyTests.a */; };
 		9D4CD7721BB923C700CBD687 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA68A121B7066480052BE63 /* CoreData.framework */; };
 		9D4CD7731BB925DB00CBD687 /* DarklyLibraryModels.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D4CD76B1BB9236B00CBD687 /* DarklyLibraryModels.bundle */; };
@@ -119,6 +134,9 @@
 		3AC5D0DD1B8AA44A00417CBB /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
 		3AD8ACB41B86B5E700922AA6 /* LDClientManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDClientManager.h; sourceTree = "<group>"; };
 		3AD8ACB51B86B5E700922AA6 /* LDClientManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDClientManager.m; sourceTree = "<group>"; };
+		695D165D1DD34BEF00E335F2 /* libDarkly OSX.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libDarkly OSX.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		695D165F1DD34BEF00E335F2 /* Darkly_OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Darkly_OSX.h; sourceTree = "<group>"; };
+		695D16611DD34BEF00E335F2 /* Darkly_OSX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Darkly_OSX.m; sourceTree = "<group>"; };
 		9D4CD76B1BB9236B00CBD687 /* DarklyLibraryModels.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarklyLibraryModels.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4CD76D1BB9236B00CBD687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DEEE9431B976F8B00238073 /* libMantle.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMantle.a; path = "Pods/../build/Debug-iphoneos/libMantle.a"; sourceTree = "<group>"; };
@@ -157,6 +175,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		23AA1ACE1B721E3F00FE6A00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		695D165A1DD34BEF00E335F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -225,6 +250,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		695D165E1DD34BEF00E335F2 /* Darkly OSX */ = {
+			isa = PBXGroup;
+			children = (
+				695D165F1DD34BEF00E335F2 /* Darkly_OSX.h */,
+				695D16611DD34BEF00E335F2 /* Darkly_OSX.m */,
+			);
+			path = "Darkly OSX";
+			sourceTree = "<group>";
+		};
 		70112E112C52AC5B6384EF0C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -266,6 +300,7 @@
 				CC36AA961B6D5FED008200F1 /* Darkly */,
 				CC36AAA31B6D5FED008200F1 /* DarklyTests */,
 				9D4CD76C1BB9236B00CBD687 /* DarklyLibraryModels */,
+				695D165E1DD34BEF00E335F2 /* Darkly OSX */,
 				CC36AA951B6D5FED008200F1 /* Products */,
 				3FF807BB26F04091D81CFC5F /* Frameworks */,
 				70112E112C52AC5B6384EF0C /* Pods */,
@@ -280,6 +315,7 @@
 				23AA1AB61B721E3E00FE6A00 /* QuickTest.app */,
 				23AA1AD11B721E3F00FE6A00 /* QuickTestTests.xctest */,
 				9D4CD76B1BB9236B00CBD687 /* DarklyLibraryModels.bundle */,
+				695D165D1DD34BEF00E335F2 /* libDarkly OSX.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -382,6 +418,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		695D165B1DD34BEF00E335F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695D16601DD34BEF00E335F2 /* Darkly_OSX.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		23AA1AB51B721E3E00FE6A00 /* QuickTest */ = {
 			isa = PBXNativeTarget;
@@ -417,6 +464,23 @@
 			productName = QuickTestTests;
 			productReference = 23AA1AD11B721E3F00FE6A00 /* QuickTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		695D165C1DD34BEF00E335F2 /* Darkly OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 695D16651DD34BEF00E335F2 /* Build configuration list for PBXNativeTarget "Darkly OSX" */;
+			buildPhases = (
+				695D16591DD34BEF00E335F2 /* Sources */,
+				695D165A1DD34BEF00E335F2 /* Frameworks */,
+				695D165B1DD34BEF00E335F2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Darkly OSX";
+			productName = "Darkly OSX";
+			productReference = 695D165D1DD34BEF00E335F2 /* libDarkly OSX.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
 		};
 		9D4CD76A1BB9236B00CBD687 /* DarklyLibraryModels */ = {
 			isa = PBXNativeTarget;
@@ -496,6 +560,9 @@
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = 23AA1AB51B721E3E00FE6A00;
 					};
+					695D165C1DD34BEF00E335F2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					9D4CD76A1BB9236B00CBD687 = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -525,6 +592,7 @@
 				23AA1AB51B721E3E00FE6A00 /* QuickTest */,
 				23AA1AD01B721E3F00FE6A00 /* QuickTestTests */,
 				9D4CD76A1BB9236B00CBD687 /* DarklyLibraryModels */,
+				695D165C1DD34BEF00E335F2 /* Darkly OSX */,
 			);
 		};
 /* End PBXProject section */
@@ -575,7 +643,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		658A25874DD4EDD0E2CD2435 /* [CP] Copy Pods Resources */ = {
@@ -620,7 +688,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		8D4E98A0B0E27FE9A083F468 /* [CP] Embed Pods Frameworks */ = {
@@ -652,6 +720,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		695D16591DD34BEF00E335F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695D16691DD34BFE00E335F2 /* LDClientManager.m in Sources */,
+				695D166E1DD34C0C00E335F2 /* LDFlagConfigModel.m in Sources */,
+				695D16671DD34BF700E335F2 /* LDPollingManager.m in Sources */,
+				695D16681DD34BFA00E335F2 /* LDRequestManager.m in Sources */,
+				695D166C1DD34C0500E335F2 /* LDConfig.m in Sources */,
+				695D16621DD34BEF00E335F2 /* Darkly_OSX.m in Sources */,
+				695D166B1DD34C0300E335F2 /* LDClient.m in Sources */,
+				695D16711DD34C1700E335F2 /* DarklyConstants.m in Sources */,
+				695D16661DD34BF400E335F2 /* LDDataManager.m in Sources */,
+				695D16701DD34C1200E335F2 /* LDUserModel.m in Sources */,
+				695D16721DD34C1900E335F2 /* NSDictionary+JSON.m in Sources */,
+				695D166D1DD34C0800E335F2 /* LDUserBuilder.m in Sources */,
+				695D166A1DD34C0100E335F2 /* LDUtil.m in Sources */,
+				695D166F1DD34C0F00E335F2 /* LDEventModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -800,6 +889,35 @@
 			};
 			name = Release;
 		};
+		695D16631DD34BEF00E335F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		695D16641DD34BEF00E335F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		9D4CD76E1BB9236C00CBD687 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -875,6 +993,7 @@
 					"$(inherited)",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
@@ -918,6 +1037,7 @@
 					"$(inherited)",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
@@ -1012,6 +1132,15 @@
 			buildConfigurations = (
 				23AA1ADB1B721E3F00FE6A00 /* Debug */,
 				23AA1ADC1B721E3F00FE6A00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		695D16651DD34BEF00E335F2 /* Build configuration list for PBXNativeTarget "Darkly OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				695D16631DD34BEF00E335F2 /* Debug */,
+				695D16641DD34BEF00E335F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

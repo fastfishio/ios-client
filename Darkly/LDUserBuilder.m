@@ -191,9 +191,12 @@
         [user key:key];
         DEBUG_LOG(@"LDUserBuilder building User with key: %@", key);
     } else {
-        NSString *uniqueKey = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
+        NSString *uniqueKey = @"";
+#ifndef TARGET_OS_IPHONE
+        uniqueKey = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
         DEBUG_LOG(@"LDUserBuilder building User with key: %@", uniqueKey);
-
+#endif
+        
         user = [[LDUserModel alloc] init];
         [user key:uniqueKey];
         if (!anonymous) {

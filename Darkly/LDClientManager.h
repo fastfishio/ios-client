@@ -4,14 +4,24 @@
 
 
 #import "LDRequestManager.h"
+#if TARGET_OS_IOS || TARGET_OS_TV
 #import <UIKit/UIKit.h>
+#elif TARGET_OS_OSX
+#import <Foundation/Foundation.h>
+#endif
 #import <DarklyEventSource/EventSource.h>
 
 extern NSString *const kLDUserUpdatedNotification;
 extern NSString *const kLDBackgroundFetchInitiated;
 
+#if TARGET_OS_IOS || TARGET_OS_TV
 @interface LDClientManager : NSObject  <RequestManagerDelegate, UIApplicationDelegate> {
 }
+#elif TARGET_OS_OSX
+@interface LDClientManager : NSObject  <RequestManagerDelegate, NSApplicationDelegate> {
+}
+#endif
+
 
 @property (nonatomic) BOOL offlineEnabled;
 @property(nonatomic, strong, readonly) EventSource *eventSource;
