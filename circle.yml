@@ -6,4 +6,4 @@ test:
  post:
   - pod --version
   - pod lib lint
-  - pod spec lint
+  - pod spec lint --private
