@@ -44,7 +44,6 @@
 		620D1C1787D9BC05B0E96C1EA18ECBD3 /* Compatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = CAD0B56E31A78F0892477445FDC87B66 /* Compatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		651F3096B56BFF131C5F956001D7BAAB /* OCMArg.m in Sources */ = {isa = PBXBuildFile; fileRef = FE35F423C620CE3C19E0F252F954C5C2 /* OCMArg.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		672FE514B7C1EB583AF6CEB2538025A7 /* OCMBoxedReturnValueProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F0115150262490C9B552591EF063A498 /* OCMBoxedReturnValueProvider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		696B28961DEC673700A91C29 /* EventSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E5C31D75E19B443989CBABA2955244 /* EventSource.m */; };
 		6D2AD1DFA8F27BA0EBB3365A5AF7AC1B /* OCMExpectationRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = D61A2D40FAFE74E1A92F39AE4671AF5C /* OCMExpectationRecorder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		70AC31D0736F568C0386716176361D09 /* OCMInvocationMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C7AE890C5B71EDEA043980B18E7D158C /* OCMInvocationMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		71899DFD8094C412FFC39669279B4533 /* OCMBlockArgCaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA8016CD9A715874973309F8563BF10 /* OCMBlockArgCaller.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -751,7 +750,6 @@
 				E8CDCEDCDC0ADE51EBAFCC09F44EFF12 /* OCMBlockArgCaller.m in Sources */,
 				046937EA1C4859D4D96EFA7B7687E441 /* OCMBlockCaller.m in Sources */,
 				672FE514B7C1EB583AF6CEB2538025A7 /* OCMBoxedReturnValueProvider.m in Sources */,
-				696B28961DEC673700A91C29 /* EventSource.m in Sources */,
 				55EA7FCA2F507BCC25959CE95D295A8C /* OCMConstraint.m in Sources */,
 				D9EA9C8052853B8962318FFD5A5551B6 /* OCMExceptionReturnValueProvider.m in Sources */,
 				6D2AD1DFA8F27BA0EBB3365A5AF7AC1B /* OCMExpectationRecorder.m in Sources */,

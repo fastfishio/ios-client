@@ -4,4 +4,6 @@ machine:
 
 test:
  post:
+  - pod --version
   - pod lib lint
+  - pod spec lint
