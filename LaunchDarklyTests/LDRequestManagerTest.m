@@ -103,11 +103,11 @@
     LDRequestManager *requestManager = [LDRequestManager sharedInstance];
     [requestManager setMobileKey:mobileKey];
     [requestManager setEventsUrl:kEventsUrl];
-    [requestManager setConnectionTimeout:10];
+    [requestManager setConnectionTimeout:20];
     
     [requestManager performEventRequest:eventsArray];
 
-    [self waitForExpectationsWithTimeout:10 handler:^(NSError *error){
+    [self waitForExpectationsWithTimeout:20 handler:^(NSError *error){
         // By the time we reach this code, the while loop has exited
         // so the response has arrived or the test has timed out
         XCTAssertTrue(httpRequestAttempted);

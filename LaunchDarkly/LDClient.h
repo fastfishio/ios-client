@@ -37,7 +37,7 @@
  * flag is retrieved from the server that value is returned, otherwise
  * the fallback is returned.
  *
- * @param featureName   Name of feature flag
+ * @param featureKey   Name of feature flag
  * @param fallback   Fallback value for feature flag
  * @return the feature flag value
  */
@@ -47,7 +47,7 @@
  * flag is retrieved from the server that value is returned, otherwise
  * the fallback is returned.
  *
- * @param featureName   Name of feature flag
+ * @param featureKey   Name of feature flag
  * @param fallback   Fallback value for feature flag
  * @return the feature flag value
  */
@@ -57,7 +57,7 @@
  * flag is retrieved from the server that value is returned, otherwise
  * the fallback is returned.
  *
- * @param featureName   Name of feature flag
+ * @param featureKey   Name of feature flag
  * @param fallback   Fallback value for feature flag
  * @return the feature flag value
  */
@@ -67,7 +67,7 @@
  * flag is retrieved from the server that value is returned, otherwise
  * the fallback is returned.
  *
- * @param featureName   Name of feature flag
+ * @param featureKey   Name of feature flag
  * @param fallback   Fallback value for feature flag
  * @return the feature flag value
  */
@@ -77,7 +77,7 @@
  * flag is retrieved from the server that value is returned, otherwise
  * the fallback is returned.
  *
- * @param featureName   Name of feature flag
+ * @param featureKey   Name of feature flag
  * @param fallback   Fallback value for feature flag
  * @return the feature flag value
  */
@@ -86,7 +86,7 @@
  * Track a custom event.
  *
  * @param eventName Name of the custom event
- * @param data  Data to be attached to custom event
+ * @param dataDictionary  Data to be attached to custom event
  * @return whether the event was successfully recorded
  */
 - (BOOL)track:(NSString *)eventName data:(NSDictionary *)dataDictionary;
